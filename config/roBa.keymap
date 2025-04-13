@@ -67,6 +67,11 @@
             bindings = <&kp AT>;
             key-positions = <18 19>;
         };
+
+        combo_openPaste {
+            bindings = <&kp LS(LG(V))>;
+            key-positions = <25 24>;
+        };
     };
 
     macros {
