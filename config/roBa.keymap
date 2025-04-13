@@ -22,21 +22,30 @@
         BT0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <28 22>;
+            layers = <6>;
         };
 
         BT1 {
             bindings = <&bt BT_SEL 1>;
             key-positions = <28 23>;
+            layers = <6>;
         };
 
         BT2 {
             bindings = <&bt BT_SEL 2>;
             key-positions = <28 24>;
+            layers = <6>;
         };
 
         BT3 {
             bindings = <&none>;
             key-positions = <28 25>;
+            layers = <6>;
+        };
+
+        switch_eisu {
+            bindings = <&kp LANG_HANJA>;
+            key-positions = <11 12>;
         };
     };
 
@@ -68,6 +77,13 @@
             #binding-cells = <0>;
             bindings = <&kp LANG_HANJA &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
             label = "parenthesis";
+        };
+
+        f10_and_eisu: f10_and_eisu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F10 &kp LANG_HANJA>;
+            label = "F10_AND_EISU";
         };
     };
 
@@ -109,7 +125,7 @@
         SYMBOLS {
             bindings = <
 &trans         &trans  &trans          &trans            &trans                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE      &trans             &trans
-&kp BACKSPACE  &trans  &kp LANG_HANJA  &kp LANG_HANGEUL  &trans  &trans      &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH
+&kp BACKSPACE  &trans  &kp LANG_HANJA  &kp LANG_HANGEUL  &trans  &trans      &kp AT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH
 &trans         &trans  &trans          &trans            &trans  &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES  &kp PIPE
 &trans         &trans  &trans          &kp LEFT_WIN      &trans  &trans      &trans  &trans                                                                         &trans
             >;
