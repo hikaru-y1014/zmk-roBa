@@ -62,6 +62,11 @@
             bindings = <&kp QUESTION>;
             key-positions = <20 19>;
         };
+
+        combo_at {
+            bindings = <&kp AT>;
+            key-positions = <18 19>;
+        };
     };
 
     macros {
