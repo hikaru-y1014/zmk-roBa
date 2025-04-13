@@ -72,6 +72,11 @@
             bindings = <&kp LS(LG(V))>;
             key-positions = <25 24>;
         };
+
+        combo_spotlight {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <3 2>;
+        };
     };
 
     macros {
