@@ -47,6 +47,11 @@
             bindings = <&kp LANG_HANJA>;
             key-positions = <11 12>;
         };
+
+        switch_ja {
+            bindings = <&kp LANG_HANGEUL>;
+            key-positions = <12 13>;
+        };
     };
 
     macros {
