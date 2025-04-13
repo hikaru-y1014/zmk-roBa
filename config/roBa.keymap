@@ -100,7 +100,7 @@
 &kp Q             &kp W         &kp E    &kp R         &kp T                                                       &kp Y  &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D    &kp F         &kp G        &kp ESCAPE                  &kp MINUS          &kp H  &kp J  &kp K      &kp L    &kp KP_ENTER
 &mt LEFT_SHIFT Z  &kp X         &kp C    &kp V         &kp B        &kp LG(LA(LEFT_ARROW))      &kp LG(LA(RIGHT))  &kp N  &kp M  &kp COMMA  &kp DOT  &kp TAB
-&kp LCTRL         &kp LEFT_WIN  &kp ESC  &kp LEFT_WIN  &lt 2 SPACE  &lt 3 LANG_HANGEUL          &kp BACKSPACE      &mo 3                             &mo 5
+&kp LCTRL         &kp LEFT_WIN  &kp ESC  &kp LEFT_WIN  &lt 1 SPACE  &lt 3 LANG_HANGEUL          &kp BACKSPACE      &mo 3                             &mo 5
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -137,10 +137,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &trans  &mkp MB4  &trans  &mkp MB5  &trans
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &trans  &trans    &trans  &trans    &to 0
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &trans  &trans    &trans  &trans    &trans
-&trans         &trans         &trans         &kp LEFT_WIN   &trans         &trans      &trans  &trans                              &trans
+&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &trans  &mkp MB4           &trans  &mkp MB5           &trans
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &trans  &mkp_exit_AML MB1  &trans  &mkp_exit_AML MB2  &to 0
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &trans  &trans             &trans  &trans             &trans
+&trans         &trans         &trans         &kp LEFT_WIN   &trans         &trans      &trans  &trans                                                &trans
             >;
         };
 
