@@ -43,14 +43,24 @@
             layers = <6>;
         };
 
-        switch_eisu {
-            bindings = <&kp LANG_HANJA>;
+        switch_en {
+            bindings = <&f10_and_eisu>;
             key-positions = <11 12>;
         };
 
         switch_ja {
             bindings = <&kp LANG_HANGEUL>;
             key-positions = <12 13>;
+        };
+
+        combo_exclamation {
+            bindings = <&kp EXCL>;
+            key-positions = <21 20>;
+        };
+
+        combo_question {
+            bindings = <&kp QUESTION>;
+            key-positions = <20 19>;
         };
     };
 
