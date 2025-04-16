@@ -102,6 +102,11 @@
             bindings = <&kp LG(LS(Z))>;
             key-positions = <23 24>;
         };
+
+        combo_mission-control {
+            bindings = <&kp LC(UP_ARROW)>;
+            key-positions = <14 13>;
+        };
     };
 
     macros {
@@ -168,10 +173,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W    &kp E          &kp R         &kp T                                                       &kp Y  &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_SHIFT A  &kp S    &kp D          &kp F         &kp G        &kp ESCAPE                  &kp MINUS          &kp H  &kp J  &kp K      &kp L    &kp KP_ENTER
-&kp Z             &kp X    &kp C          &kp V         &kp B        &kp LG(LA(LEFT_ARROW))      &kp LG(LA(RIGHT))  &kp N  &kp M  &kp COMMA  &kp DOT  &kp TAB
-&kp LCTRL         &kp ESC  &kp BACKSPACE  &kp LEFT_WIN  &lt 1 SPACE  &mo 2                       &mo 1              &mo 3                             &mo 5
+&kp Q             &kp W             &kp E         &kp R         &kp T                                                       &kp Y  &kp U  &lt 5 I    &kp O    &kp P
+&mt LEFT_SHIFT A  &kp S             &kp D         &kp F         &kp G        &trans                      &trans             &kp H  &kp J  &kp K      &kp L    &kp KP_ENTER
+&kp Z             &kp X             &kp C         &kp V         &kp B        &kp LG(LA(LEFT_ARROW))      &kp LG(LA(RIGHT))  &kp N  &kp M  &kp COMMA  &kp DOT  &kp TAB
+&trans            &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &mo 2                       &mo 1              &mo 3                             &mo 5
             >;
 
             sensor-bindings = <&scroll_up_down>;
