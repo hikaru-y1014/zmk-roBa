@@ -107,6 +107,11 @@
             bindings = <&kp LC(UP_ARROW)>;
             key-positions = <14 13>;
         };
+
+        combo_cmd-enter {
+            bindings = <&kp LG(KP_ENTER)>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
