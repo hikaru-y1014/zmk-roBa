@@ -112,6 +112,21 @@
             bindings = <&kp LG(KP_ENTER)>;
             key-positions = <17 18>;
         };
+
+        combo_cap3 {
+            bindings = <&kp LG(LS(KP_NUMBER_3))>;
+            key-positions = <30 31>;
+        };
+
+        combo_cap4 {
+            bindings = <&kp LG(LS(KP_NUMBER_4))>;
+            key-positions = <31 32>;
+        };
+
+        combo_cap5 {
+            bindings = <&kp LG(LS(KP_NUMBER_5))>;
+            key-positions = <33 32>;
+        };
     };
 
     macros {
