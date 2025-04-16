@@ -109,22 +109,22 @@
         };
 
         combo_cmd-enter {
-            bindings = <&kp LG(KP_ENTER)>;
+            bindings = <&kp LG(ENTER)>;
             key-positions = <17 18>;
         };
 
         combo_cap3 {
-            bindings = <&kp LG(LS(KP_NUMBER_3))>;
+            bindings = <&kp LG(LS(NUMBER_3))>;
             key-positions = <30 31>;
         };
 
         combo_cap4 {
-            bindings = <&kp LG(LS(KP_NUMBER_4))>;
+            bindings = <&kp LG(LS(NUMBER_4))>;
             key-positions = <31 32>;
         };
 
         combo_cap5 {
-            bindings = <&kp LG(LS(KP_NUMBER_5))>;
+            bindings = <&kp LG(LS(N5))>;
             key-positions = <33 32>;
         };
     };
@@ -194,7 +194,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W             &kp E         &kp R         &kp T                                                       &kp Y  &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_SHIFT A  &kp S             &kp D         &kp F         &kp G        &trans                      &trans             &kp H  &kp J  &kp K      &kp L    &kp KP_ENTER
+&mt LEFT_SHIFT A  &kp S             &kp D         &kp F         &kp G        &trans                      &trans             &kp H  &kp J  &kp K      &kp L    &kp ENTER
 &kp Z             &kp X             &kp C         &kp V         &kp B        &kp LG(LA(LEFT_ARROW))      &kp LG(LA(RIGHT))  &kp N  &kp M  &kp COMMA  &kp DOT  &kp TAB
 &trans            &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 1 SPACE  &mo 2                       &mo 1              &mo 3                             &mo 5
             >;
