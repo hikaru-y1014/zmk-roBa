@@ -204,7 +204,7 @@
 
         SYMBOLS {
             bindings = <
-&trans         &trans  &trans     &trans         &trans                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE      &trans             &trans
+&trans         &trans  &trans     &trans         &trans                      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE      &trans             &kp SLASH
 &kp BACKSPACE  &trans  &kp LG(Z)  &kp LG(LS(Z))  &trans  &trans      &kp AT  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp SEMICOLON  &kp SINGLE_QUOTE   &kp BACKSLASH
 &trans         &trans  &trans     &trans         &trans  &trans      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON      &kp DOUBLE_QUOTES  &kp PIPE
 &trans         &trans  &trans     &kp LEFT_WIN   &trans  &trans      &trans  &trans                                                                         &trans
